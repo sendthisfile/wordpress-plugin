@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: SendThisFile Button
-Description: Enables [SendThisFileButton] shortcode which outputs a file sharing button and dialog to your website.
-Version:     1.0.0
+Description: Enables [SendThisFile] shortcode that displays a file sharing button and dialog to your website.
+Version:     1.0.1
 Author:      sendthisfile
-Author URI:  https://app.sendthisfile.com/
+Author URI:  https://github.com/sendthisfile/wordpress-plugin
 Text Domain: sendthisfile-button
 Domain Path: /languages
 */
@@ -42,7 +42,7 @@ if ( ! class_exists( 'SendThisFile_Button' ) ) {
 			add_action( 'wp_enqueue_scripts', array( $this, 'register_assets' ) );
 
 			// Shortcode
-			add_shortcode( 'SendThisFileButton', array( $this, 'output_shortcode' ) );
+			add_shortcode( 'SendThisFile', array( $this, 'output_shortcode' ) );
 		}
 
 		public function init() {
@@ -76,13 +76,13 @@ if ( ! class_exists( 'SendThisFile_Button' ) ) {
 			wp_enqueue_script( 'sendthisfile-button' );
 
 			extract( shortcode_atts( array(
-				'button_id' => $this->get_option( 'button_id' ),
+				'buttonid' => $this->get_option( 'buttonid' ),
 				'button_label' => $this->get_option( 'button_label', __( 'Send files', 'sendthisfile-button' ) )
 			), $atts, $tag ) );
 
-			if ( empty( $button_id ) ) return __( 'Invalid button id', 'sendthisfile-button' );
+			if ( empty( $buttonid ) ) return __( 'Invalid button id', 'sendthisfile-button' );
 
-			return '<sendthisfile-button label="' . esc_attr( $button_label ) . '" buttonid="' . esc_attr( $button_id ) . '"></sendthisfile-button>';
+			return '<sendthisfile-button label="' . esc_attr( $button_label ) . '" buttonid="' . esc_attr( $buttonid ) . '"></sendthisfile-button>';
 		}
 
 		private function get_option( $option_name, $default = '' ) {
