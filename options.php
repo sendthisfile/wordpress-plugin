@@ -7,7 +7,7 @@
 <h1><?php _e( 'SendThisFile Button - Options', 'sendthisfile-button' ); ?></h1>
 	<div>
 		<span class="shortcode-definition" style="padding: 10px; border: 2px dashed #c5c9d4; color: #c5c9d4; display: inline-block; font-size: 20px; font-weight: bold">
-			[SendThisFileButton button_id="button_id" button_label="button_label"]
+			[SendThisFile buttonid="buttonid" button_label="button_label"]
 		</span>
 	</div>
 	<form method="POST" action="options.php">
@@ -17,7 +17,7 @@
 			<tr class="sendthisfile-button-tr">
 				<th><?php _e( 'Default/fallback Button Id', 'sendthisfile-button' ); ?></th>
 				<td>
-					<input type="text" name="<?php echo SENDTHISFILE_BUTTON_OPTIONS_NAME . '[button_id]'; ?>" value="<?php esc_attr_e( $this->get_option( 'button_id' ) ); ?>" class="regular-text"/>
+					<input type="text" name="<?php echo SENDTHISFILE_BUTTON_OPTIONS_NAME . '[buttonid]'; ?>" value="<?php esc_attr_e( $this->get_option( 'buttonid' ) ); ?>" class="regular-text"/>
 				</td>
 			</tr>
 			<tr class="sendthisfile-button-tr">
@@ -27,7 +27,7 @@
 				</td>
 			</tr>
 		</table>
-		<p><?php _e( 'If "button_id" or "button_label" parameters are not specified in shortcode, then fallback values will be used.', 'sendthisfile-button' ); ?></p>
+		<p><?php _e( 'If "buttonid" or "button_label" parameters are not specified in shortcode, then fallback values will be used.', 'sendthisfile-button' ); ?></p>
 		<?php submit_button(); ?>
 	</form>
 </div>

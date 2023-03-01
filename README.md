@@ -70,7 +70,7 @@
 
 Installing this plugin in Wordpress will give you the ability to add a [sendthisfile] shortcode to your content.  Placing a [sendthisfile] shortcode on your pages or posts will cause a button to be rendered.  When clicked, that button will allow the visitor to your site to send you files.
 
-The plugin requires you to add a `button_id`, that you obtain when you create a "Website Button" at <a href="https://sendthisfile.com">SendThisFile</a>. 
+The plugin requires you to add a `buttonid`, that you obtain when you create a "Website Button" at <a href="https://sendthisfile.com">SendThisFile</a>. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +84,7 @@ The plugin requires you to add a `button_id`, that you obtain when you create a 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get this WordPress plugin running, follow these simple example steps.
+To get this WordPress plugin running, follow these simple steps.
 
 ### Prerequisites
 
