@@ -16,7 +16,7 @@ define( 'SENDTHISFILE_BUTTON_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'SENDTHISFILE_BUTTON_OPTSGROUP_NAME', 'sendthisfile_button_optsgroup' );
 define( 'SENDTHISFILE_BUTTON_OPTIONS_NAME', 'sendthisfile_button_options' );
 define( 'SENDTHISFILE_BUTTON_SCRIPT_URL', 'https://cdn.sendthisfile.com/button/sendthisfile-button.min.js' );
-define( 'SENDTHISFILE_BUTTON_LOGO_URL', plugins_url( 'images/horizontal_PMS.svg', __FILE__ ) );
+define( 'SENDTHISFILE_BUTTON_LOGO_URL', plugins_url( 'images/logo.svg', __FILE__ ) );
 define( 'SENDTHISFILE_BUTTON_VER', '1.0.0' );
 
 if ( ! class_exists( 'SendThisFile_Button' ) ) {
@@ -55,12 +55,12 @@ if ( ! class_exists( 'SendThisFile_Button' ) ) {
 
 		public function add_menu_item() {
 			add_menu_page(
-				__( 'SendThisFile B', 'sendthisfile-button' ),
-				__( 'SendThisFile B', 'sendthisfile-button' ),
+				__( 'SendThisFile', 'sendthisfile-button' ),
+				__( 'SendThisFile', 'sendthisfile-button' ),
 				'manage_options',
 				'sendthisfile-button',
 				array( $this, 'render_options_page' ),
-				'dashicons-admin-generic'
+				plugins_url( 'images/icon.png', __FILE__ )
 			);
 		}
 
