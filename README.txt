@@ -38,7 +38,7 @@ To get this WordPress plugin running, follow these simple steps.
 1. Install this plugin using WordPress' Plugins admin tool.
 2. Activate the plugin.
 3. In the WP Admin, navigate to "SendThisFile".
-4. Enter your button id into the "Button Id" field and save it.
+4. Enter your button id into the "Default Buttonid" field and save it.
 
 You are now ready to use your [SendThisFile] shortcode.
 
