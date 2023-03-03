@@ -1,7 +1,8 @@
-=== Plugin Name ===
+=== SendThisFile Button ===
 Contributors: sendthisfile
-Tags: sendthisfile, wordpress-plugin
+Tags: sendthisfile
 Requires at least: 4.7
+Requires PHP: 5.6
 Tested up to: 6.1.1
 Stable tag: 1.0.1
 License: GPLv3
