@@ -4,8 +4,8 @@ Plugin Name: SendThisFile Button
 Plugin URI: https://github.com/sendthisfile/wordpress-plugin
 Author: SendThisFile
 Author URI: https://sendthisfile.com
-Description: Enables [sendthisfile] shortcode that displays a file sharing button and dialog to your website.
-Version: 1.0.2
+Description: Enables [SendThisFile] shortcode that displays a file sharing button and dialog to your website.
+Version: 1.0.1
 Requires at least: 4.7
 Text Domain: sendthisfile-button
 Domain Path: /languages
@@ -44,7 +44,7 @@ if ( ! class_exists( 'SendThisFile_Button' ) ) {
 			add_action( 'wp_enqueue_scripts', array( $this, 'register_assets' ) );
 
 			// Shortcode
-			add_shortcode( 'sendthisfile', array( $this, 'output_shortcode' ) );
+			add_shortcode( 'SendThisFile', array( $this, 'output_shortcode' ) );
 		}
 
 		public function init() {

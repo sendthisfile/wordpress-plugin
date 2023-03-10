@@ -8,7 +8,7 @@
 <h2 style="margin-top: 40px;"><?php _e( 'Example usage', 'sendthisfile-button' ); ?></h2>
 	<div>
 		<span class="shortcode-definition" style="padding: 10px; border: 2px dashed #c5c9d4; color: #c5c9d4; display: inline-block; font-size: 12px; font-weight: bold">
-			[sendthisfile buttonid="buttonid" button_label="button_label"]
+			[SendThisFile buttonid="buttonid" button_label="button_label"]
 		</span>
 	</div>
 <h2 style="margin-top: 40px;"><?php _e( 'Instructions', 'sendthisfile-button' ); ?></h2>

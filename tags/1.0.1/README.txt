@@ -4,7 +4,7 @@ Tags: sendthisfile
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.1.1
-Stable tag: 1.0.2
+Stable tag: 1.0.1
 License: GPLv3
 
 A WordPress plugin that allows your visitors to send you files on your pages and posts using a SendThisFile website button.
@@ -41,13 +41,10 @@ To get this WordPress plugin running, follow these simple steps.
 3. In the WP Admin, navigate to "SendThisFile".
 4. Enter your button id into the "Default Buttonid" field and save it.
 
-You are now ready to use your [sendthisfile] shortcode.
+You are now ready to use your [SendThisFile] shortcode.
 
 
 == Changelog ==
-
-= 1.0.2 =
-* Fix shortcode case discrepancy
 
 = 1.0.1 =
 * Initial release of plugin

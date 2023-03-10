@@ -106,7 +106,7 @@ To get this WordPress plugin running, follow these simple steps.
 3. In the WP Admin, navigate to "SendThisFile".
 4. Enter your button id into the "Default Buttonid" field and save it.
 
-You are now ready to use your [SendThisFile] shortcode.
+You are now ready to use your [sendthisfile] shortcode.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +115,7 @@ You are now ready to use your [SendThisFile] shortcode.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You can add a ShortCode block, or edit your HTML and manually enter the[SendThisFile] shortcode on any page or post.   Wherever you place a block or manually enter the [SendThisFile] code, will cause a button to be rendered at that location.  You can add a button inline with your text.
+You can add a ShortCode block, or edit your HTML and manually enter the [sendthisfile] shortcode on any page or post.   Wherever you place a block or manually enter the [sendthisfile] code, will cause a button to be rendered at that location.  You can add a button inline with your text.
 
 When the button is clicked, it will open up a dialog that walks our website visitors through sending files to the recipient they select.  If there is only one recipient, it will skip prompting them for the recipient.
 
