@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sendthisfile/wordpress-plugin">
-    <img src="images/logo.svg" alt="Logo" height="200">
+    <img src="trunk/images/logo.svg" alt="Logo" height="200">
   </a>
 
 <h3 align="center">SendThisFile Wordpress Plugin</h3>
@@ -154,7 +154,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GPLv3 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,6 +188,6 @@ Project Link: [https://github.com/sendthisfile/wordpress-plugin](https://github.
 [issues-url]: https://github.com/sendthisfile/wordpress-plugin/issues
 [license-shield]: https://img.shields.io/github/license/sendthisfile/wordpress-plugin.svg?style=for-the-badge
 [license-url]: https://github.com/sendthisfile/wordpress-plugin/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.jpg
+[product-screenshot]: trunk/images/screenshot.jpg
 [php]: https://img.shields.io/wordpress/plugin/required-php/bbpress
 [php-url]: https://www.php.net/
