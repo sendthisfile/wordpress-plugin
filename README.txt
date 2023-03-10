@@ -46,7 +46,7 @@ You are now ready to use your [sendthisfile] shortcode.
 
 == Changelog ==
 
-= 1.0.3 =
+= 1.0.4 =
 * Fixed assets reference in workflow
 
 = 1.0.3 =
