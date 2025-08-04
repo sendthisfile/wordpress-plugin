@@ -3,7 +3,7 @@ Contributors: sendthisfile
 Tags: sendthisfile
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.1.1
+Tested up to: 6.8.2
 Stable tag: 1.0.6
 License: GPLv3
 
